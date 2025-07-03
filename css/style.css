@@ -1,0 +1,41 @@
+body{
+    justify-content: center;
+    align-items:center;
+     text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Чтобы все было по центру */
+  gap: 10px; /* Расстояние между полями */
+}
+input, button {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  border: none;
+}
+.text .green{
+    color: green;
+}
+.register {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.google{
+ width: 300px;
+ height: 40px;
+}
+.facebook{
+    width: 300px;
+ height: 40px;
+}
